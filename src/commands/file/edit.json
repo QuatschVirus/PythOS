@@ -1,0 +1,16 @@
+{
+    "general": {
+        "author": "QuatschVirus",
+        "builtin": true,
+        "description": "Edits the given file with nano",
+        "usage": "edit (path)"
+    },
+    "security": {
+        "admin_required": false,
+        "ask_before_run": false
+    },
+    "required_info": [
+        "files"
+    ],
+    "executable": "edit"
+}

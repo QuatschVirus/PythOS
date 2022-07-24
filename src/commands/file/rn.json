@@ -1,0 +1,16 @@
+{
+    "general": {
+        "author": "QuatschVirus",
+        "builtin": true,
+        "description": "Rename the file at the given path to the given name",
+        "usage": "rn (path) (new name)"
+    },
+    "security": {
+        "admin_required": false,
+        "ask_before_run": false
+    },
+    "required_info": [
+        "files"
+    ],
+    "executable": "rename"
+}

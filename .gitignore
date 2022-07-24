@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Log files
+logs
+*.log
+
+# User files
+src/files

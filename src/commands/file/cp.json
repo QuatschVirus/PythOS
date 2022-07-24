@@ -1,0 +1,16 @@
+{
+    "general": {
+        "author": "QuatschVirus",
+        "builtin": true,
+        "description": "Copies the first directory to the second directory",
+        "usage": "copy (source) (destination)"
+    },
+    "security": {
+        "admin_required": false,
+        "ask_before_run": false
+    },
+    "required_info": [
+        "files"
+    ],
+    "executable": "cp"
+}

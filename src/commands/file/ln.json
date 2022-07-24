@@ -1,0 +1,16 @@
+ {
+    "general": {
+        "author": "QuatschVirus",
+        "builtin": true,
+        "description": "Allows you to create a symbloic link between from a folder (first argument) to the second directory",
+        "usage": "ln (source) (target)"
+    },
+    "security": {
+        "admin_required": false,
+        "ask_before_run": false
+    },
+    "required_info": [
+        "files"
+    ],
+    "executable": "mount"
+}

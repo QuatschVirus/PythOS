@@ -1,0 +1,16 @@
+ {
+    "general": {
+        "author": "QuatschVirus",
+        "builtin": true,
+        "description": "Allows you to mount host-system directories into your file system",
+        "usage": "mount (source) (target)"
+    },
+    "security": {
+        "admin_required": false,
+        "ask_before_run": false
+    },
+    "required_info": [
+        "files"
+    ],
+    "executable": "mount"
+}

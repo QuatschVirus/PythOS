@@ -1,0 +1,14 @@
+{
+    "general": {
+        "author": "QuatschVirus",
+        "builtin": true,
+        "description": "Shut down the operating system",
+        "usage": "shutdown"
+    },
+    "security": {
+        "admin_required": false,
+        "ask_before_run": true
+    },
+    "required_info": ["escape"],
+    "executable": "shutdown"
+}

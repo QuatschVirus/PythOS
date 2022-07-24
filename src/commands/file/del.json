@@ -1,0 +1,16 @@
+{
+    "general": {
+        "author": "QuatschVirus",
+        "builtin": true,
+        "description": "Deletes everything in the given path",
+        "usage": "del [path]"
+    },
+    "security": {
+        "admin_required": false,
+        "ask_before_run": true
+    },
+    "required_info": [
+        "files"
+    ],
+    "executable": "delete"
+}

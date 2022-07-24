@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Files",
+        "commands": ["cd", "cp", "del", "mkdir", "mv", "rn", "ls", "dir", "edit", "ln", "mount"],
+        "location": "/file"
+    }
+]

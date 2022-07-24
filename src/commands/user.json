@@ -1,0 +1,14 @@
+{
+    "general": {
+        "author": "QuatschVirus",
+        "builtin": true,
+        "description": "Manage users",
+        "usage": "user [\"add\"/\"edit\"/\"delete\"] [username/{\"username\"/\"password\"}/username] [password/username/-] [admin/{new_username/old_password}/-] [-/{-/new_password}/-]"
+    },
+    "security": {
+        "admin_required": false,
+        "ask_before_run": false
+    },
+    "required_info": ["user"],
+    "executable": "user"
+}

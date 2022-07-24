@@ -1,0 +1,14 @@
+{
+    "general": {
+        "author": "QuatschVirus",
+        "builtin": true,
+        "description": "Help with commands",
+        "usage": "help [*commands you wish help for]"
+    },
+    "security": {
+        "admin_required": false,
+        "ask_before_run": false
+    },
+    "required_info": [],
+    "executable": "help"
+}
