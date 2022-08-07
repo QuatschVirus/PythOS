@@ -45,8 +45,8 @@ def __check_pw__(username: str, pw: str) -> bool:
     try:
         user = __get_user__(username)
         if user["password"] == hashlib.sha512(pw.encode()).digest():
-            logging.log("UserHandler", "PasswordCheck.Success", f"The password check for user {username} was successful",
-                        False)
+            logging.log("UserHandler", "PasswordCheck.Success",
+                        f"The password check for user {username} was successful", False)
             return True
         else:
             logging.log("UserHandler", "PasswordCheck.Failure", f"The password check for user {username} failed", False)

@@ -1,4 +1,6 @@
-import userHandling
+from typing import List
+
+from src import userHandling
 
 user = {}
 
@@ -9,7 +11,7 @@ def initialize(info: dict):
     return main
 
 
-def main(com: list[str]):
+def main(com: List[str]):
     if len(com) > 1:
         option = com[1]
     else:

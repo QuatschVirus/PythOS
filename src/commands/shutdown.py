@@ -1,4 +1,6 @@
-import logging
+from typing import List
+
+from src import logging
 
 
 def __func__():
@@ -14,6 +16,7 @@ def initialize(info: dict):
     return main
 
 
-def main(com: list[str]):
+# noinspection PyUnusedLocal
+def main(com: List[str]):
     logging.log("Commands", "Shutdown", "The system has been shut down", False)
     escape_func()

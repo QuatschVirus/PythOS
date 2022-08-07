@@ -1,13 +1,16 @@
 import os
 import json
-import logging
+from src import logging
+
+from typing import List, Tuple
 
 
+# noinspection PyUnusedLocal
 def initialize(info: dict):
     return main
 
 
-def main(com: list[str]):
+def main(com: List[str]):
     logging.log("Commands", "Help", f"Help was requested (Clause: {com})", False)
     coms = {}
     group_coms = []
@@ -43,5 +46,5 @@ def main(com: list[str]):
             print_out(command, coms[command])
 
 
-def print_out(com: str, data: tuple[str, str]):
+def print_out(com: str, data: Tuple[str, str]):
     print(f"{com}: {data[0]}. Usage: {data[1]}")

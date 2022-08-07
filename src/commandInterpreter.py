@@ -125,4 +125,3 @@ def run(command: str):
                             f"Command {com[0]} is incompatible! (Incorrect initialization function - "
                             f"Incorrect argument type)", False)
                 return
-
